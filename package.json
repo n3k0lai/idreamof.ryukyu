@@ -1,0 +1,15 @@
+{
+  "name": "idreamof.ryukyu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/CatLover91/idreamof.ryukyu.git",
+  "author": "catlover91 <7215827+CatLover91@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.3",
+    "xterm": "^3.0.2"
+  }
+}
