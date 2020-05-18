@@ -82,7 +82,7 @@
 </template>
 <script>
 export default {
-  name: 'app',
+  name: 'App',
   data() {
     return {
       splash: true,
@@ -192,7 +192,7 @@ export default {
 }
 </script>
 <style lang="scss">
-  html, body {
+  html, body, #app {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -206,7 +206,7 @@ export default {
   align-items: center;
   flex-direction: column;
   background-color: #1F1F1F;
-  background-image: url("/assets/stardust.png");
+  background-image: url("../assets/stardust.png");
   .center-cont {
     border-radius: 3px;
     width: 33%;
@@ -215,7 +215,7 @@ export default {
     border: 3px solid white;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("/assets/sloccc.gif");
+    background-image: url("../assets/sloccc.gif");
   
     .image-cover {
       width: 100%;
