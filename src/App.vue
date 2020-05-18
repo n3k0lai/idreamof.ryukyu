@@ -206,7 +206,7 @@ export default {
   align-items: center;
   flex-direction: column;
   background-color: #1F1F1F;
-  background-image: url("https://cdn.glitch.com/7f0ff9b8-7bbb-474d-8078-5b7f262e5ed3%2Fstardust.png?1558924100374");
+  background-image: url("/assets/stardust.png");
   .center-cont {
     border-radius: 3px;
     width: 33%;
@@ -215,7 +215,7 @@ export default {
     border: 3px solid white;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("https://cdn.glitch.com/7f0ff9b8-7bbb-474d-8078-5b7f262e5ed3%2Fsloccc.gif?1558924106590");
+    background-image: url("/assets/sloccc.gif");
   
     .image-cover {
       width: 100%;
