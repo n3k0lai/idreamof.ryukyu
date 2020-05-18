@@ -1,15 +1,36 @@
 {
-  "name": "idreamof.ryukyu",
+  "name": "idreamof-ryukyu",
+  "description": "idreamof.ryukyu",
   "version": "1.0.0",
-  "main": "index.js",
+  "license": "MIT",
   "repository": "https://github.com/CatLover91/idreamof.ryukyu.git",
   "author": "catlover91 <7215827+CatLover91@users.noreply.github.com>",
-  "license": "MIT",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --host 0.0.0.0 --public $PROJECT_DOMAIN.glitch.me",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --host 0.0.0.0 --public $PROJECT_DOMAIN.glitch.me",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "vue": "^2.5.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
   "devDependencies": {
     "babel-core": "^6.26.0",
-    "babel-preset-stage-2": "^6.24.1",
-    "snazzy": "^7.0.0",
-    "standard": "^10.0.3",
-    "xterm": "^3.0.2"
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
   }
 }
