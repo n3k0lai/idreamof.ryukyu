@@ -1,25 +1,20 @@
 {
-  "name": "idreamof-ryukyu",
-  "description": "idreamof.ryukyu",
-  "version": "1.0.0",
-  "license": "MIT",
-  "repository": "https://github.com/CatLover91/idreamof.ryukyu.git",
-  "author": "catlover91 <7215827+CatLover91@users.noreply.github.com>",
+  "name": "idreamof.ryukyu",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ],
   "dependencies": {
-    "vue": "^3.0.0-beta.10"
+    "vue": "^3.2.47"
   },
   "devDependencies": {
-    "@vue/compiler-sfc": "^3.0.0-beta.10",
-    "sass": "^1.26.5",
-    "vite": "^0.15.0"
+    "@vitejs/plugin-vue": "^4.1.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vue-tsc": "^1.4.2"
   }
 }
