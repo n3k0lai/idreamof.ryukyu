@@ -1,7 +1,8 @@
 # idreamof.ryukyu
 my home page for my web browser
 
-links: twitch, monkeytype, zed.run, mahjongsoul, archwiki, duolingo, youtube, amazon
+links: twitch, archwiki, youtube, amazon
+games: monkeytype zed.run, mahjongsoul, duolingo
 
 random image widget
 
